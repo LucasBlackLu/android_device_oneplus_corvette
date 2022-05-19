@@ -30,7 +30,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
-    OPlusWifiResTarget
+    OPlusWifiResTarget \
+    PixelSetupWizardResTarget
 
 # PowerShare
 PRODUCT_PACKAGES += \
