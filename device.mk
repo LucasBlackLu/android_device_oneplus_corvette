@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
-    OPlusWifiResTarget
+    OPlusWifiResTarget \
+    PixelSetupWizardResTarget
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
