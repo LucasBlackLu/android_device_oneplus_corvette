@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
     OPlusWifiResTarget \
     PixelSetupWizardResTarget
 
+# Remove few packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
