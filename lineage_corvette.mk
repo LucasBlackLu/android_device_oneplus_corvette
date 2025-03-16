@@ -8,24 +8,24 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from waffle device
-$(call inherit-product, device/oneplus/waffle/device.mk)
+# Inherit from corvette device
+$(call inherit-product, device/oneplus/corvette/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_waffle
-PRODUCT_DEVICE := waffle
+PRODUCT_NAME := lineage_corvette
+PRODUCT_DEVICE := corvette
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2581
+PRODUCT_MODEL := PJX110
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1761898973141 release-keys" \
-    BuildFingerprint=OnePlus/CPH2581EEA/OP595DL1:16/BP2A.250605.015/U.R4T3.39575dc-1907a57-1939ec6:user/release-keys \
-    DeviceName=OP595DL1 \
-    DeviceProduct=CPH2581 \
-    SystemDevice=OP595DL1 \
-    SystemName=CPH2581
+    BuildDesc="qssi-user 16 BP2A.250605.015 1763260541838 release-keys" \
+    BuildFingerprint=OnePlus/PJX110/OP5D06L1:16/UKQ1.231108.001/U.f9aed0_1164c89_1164c8b:user/release-keys \
+    DeviceName=OP5D06L1 \
+    DeviceProduct=PJX110 \
+    SystemDevice=OP5D06L1 \
+    SystemName=PJX110
