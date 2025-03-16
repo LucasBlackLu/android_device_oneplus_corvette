@@ -8,27 +8,27 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from waffle device
-$(call inherit-product, device/oneplus/waffle/device.mk)
+# Inherit from corvette device
+$(call inherit-product, device/oneplus/corvette/device.mk)
 
 # Inherit some common SunOS stuff.
 $(call inherit-product, vendor/sun/config/common_full_phone.mk)
 
 # Official
-SUN_BUILD_TYPE := Official
+SUN_BUILD_TYPE := Unofficial
 
-PRODUCT_NAME := sun_waffle
-PRODUCT_DEVICE := waffle
+PRODUCT_NAME := sun_corvette
+PRODUCT_DEVICE := corvette
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2581
+PRODUCT_MODEL := PJX110
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="CPH2581EEA-user 15 AP3A.240617.008 U.R4T3.17d48a7_6d0b67_6d0b69 release-keys" \
-    BuildFingerprint=OnePlus/CPH2581EEA/OP595DL1:15/AP3A.240617.008/U.R4T3.17d48a7_6d0b67_6d0b69:user/release-keys \
-    DeviceName=OP595DL1 \
-    DeviceProduct=CPH2581 \
-    SystemDevice=OP595DL1 \
-    SystemName=CPH2581
+    BuildDesc="PJX110-user 15 UKQ1.231108.001 U.c92d20_11d4b58_118d784 release-keys" \
+    BuildFingerprint=OnePlus/PJX110/OP5D06L1:15/UKQ1.231108.001/U.390cef0-1a6b4e3-1a73ba9:user/release-keys \
+    DeviceName=OP5D06L1 \
+    DeviceProduct=PJX110 \
+    SystemDevice=OP5D06L1 \
+    SystemName=PJX110

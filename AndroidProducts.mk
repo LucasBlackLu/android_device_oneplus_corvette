@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/sun_waffle.mk
+    $(LOCAL_DIR)/sun_corvette.mk
