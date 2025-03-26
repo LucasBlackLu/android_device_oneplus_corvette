@@ -15,6 +15,11 @@ from extract_utils.main import (
 
 namespace_imports = [
     'vendor/oneplus/sm8650-common',
+    'hardware/qcom-caf/sm8650',
+    'hardware/oplus',
+    'vendor/qcom/opensource/commonsys/display',
+    'vendor/qcom/opensource/commonsys-intf/display',
+    'vendor/qcom/opensource/dataservices',
 ]
 
 blob_fixups: blob_fixups_user_type = {
