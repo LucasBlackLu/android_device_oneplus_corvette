@@ -18,6 +18,12 @@ TARGET_SCREEN_DENSITY := 640
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus/corvette.config
 
+# Prebuilt DTBO
+ifeq ($(TARGET_USE_PREBUILT_DTBO),true)
+TARGET_NEEDS_DTBOIMAGE :=
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
+endif
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
