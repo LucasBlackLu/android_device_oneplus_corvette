@@ -19,6 +19,9 @@ odm/etc/usecaseKvManager.xml
 vendor/etc/card-defs.xml
 vendor/etc/usecaseKvManager.xml
 
+#Audio firmware
+odm/firmware/sipa.bin
+
 # Audio params
 odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat
 odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt
