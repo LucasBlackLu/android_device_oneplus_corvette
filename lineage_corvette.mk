@@ -13,6 +13,8 @@ $(call inherit-product, device/oneplus/corvette/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+DERPFEST_BUILD_TYPE := Official
+DERPFEST_BUILD_VARIANT := Stable
 
 PRODUCT_NAME := lineage_waffle
 PRODUCT_DEVICE := corvette
