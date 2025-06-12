@@ -114,6 +114,7 @@ odm/firmware/fastchg/silicon_1_charging_thermal_config_default.txt
 odm/firmware/fastchg/silicon_1_smart_chg_config_table.txt
 
 # Display calibration data
+my_product/vendor/etc/display_apollo_list_AA567_P_3_A0004_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AA567_P_3_A0004_dsc_cmd_mode_panel.xml
 odm/etc/display/qdcm_calib_data_AA567_P_3_A0004_dsc_cmd_mode_panel.json
 
 # Display (Pixelworks)
