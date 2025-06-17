@@ -185,9 +185,6 @@ odm/firmware/tp/23814/sys_edge_touch_config.xml
 odm/firmware/tp/23814/sys_touch_algo_feature_config.xml
 odm/firmware/tp/23814/sys_touch_function_feature_config.xml
 
-# Vibrator
-odm/etc/aac_richtap.config
-
 # UFS firmware
 odm/firmware/ufs/MICRON-MT001TAYAX8U40.bin
 odm/firmware/ufs/SAMSUNG-KLUFG4NHHB-F0G1.bin
