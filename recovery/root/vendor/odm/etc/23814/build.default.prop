@@ -1,0 +1,8 @@
+# Device info
+ro.product.device=OP5D06L1
+ro.product.model=PJX110
+ro.product.name=PJX110
+ro.vendor.oplus.regionmark=CN
+
+# NFC
+persist.vendor.nfc.config_file_name=libnfc-mtp-SN220.conf_23814
