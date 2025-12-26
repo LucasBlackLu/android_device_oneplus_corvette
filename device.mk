@@ -42,6 +42,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Touch features
 $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_HTPR,false)
 
+# TVXmlDemo
+PRODUCT_PACKAGES += \
+    TVXmlDemo
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.oplus
