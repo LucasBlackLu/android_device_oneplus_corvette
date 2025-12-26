@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中/获得焦点时：显示白框 + 渐变背景 -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="3dp" android:color="#FFFFFF" />
+            <corners android:radius="8dp" />
+            <gradient android:angle="270" android:startColor="#42A5F5" android:endColor="#1976D2" />
+        </shape>
+    </item>
+    <!-- 默认状态：只有渐变背景 -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <gradient android:angle="270" android:startColor="#42A5F5" android:endColor="#1976D2" />
+        </shape>
+    </item>
+</selector>
